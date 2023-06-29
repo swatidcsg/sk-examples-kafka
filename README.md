@@ -8,15 +8,25 @@ https://apps.sys.ap03.pcf.dcsg.com
 Deployed in following environment
 https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com/ 
 
-RUNNING
-myapp
-1	133.12 MB	7 d 0 hr
-https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com
+<p> <i> 
+ RUNNING  myapp  1	133.12 MB	7 d 0 hr
+     https://myapp-active-turtle-xh.apps.ap03.pcf.dcsg.com
+</i>  </p>
+ 
 
-This is the CloudFoundry CLI
+ <p> <b>
+  This is the CloudFoundry CLI
+ </b>
+ </p> 
 
+<p><b>
  cf7.exe push
-Pushing app myapp to org integration / space prod as swati.kher@dcsg.com...
+</b>
+</p>
+
+ <p>
+  <code>
+   Pushing app myapp to org integration / space prod as swati.kher@dcsg.com...
 Applying manifest file C:\Users\DKS0698512\myGitrepo\python-tutorial\manifest.yml...
 Manifest applied
 Packaging files to upload...
@@ -98,4 +108,5 @@ memory usage:    128M
 start command:   python server.py
      state     since                  cpu    memory      disk        details
 #0   running   2023-06-22T13:59:25Z   0.0%   0 of 128M   51M of 1G
-
+  </code>
+ </p>
